@@ -1,0 +1,259 @@
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body {
+font-family: "Helvetica Neue", sans-serif;
+font-weight: lighter;
+background: linear-gradient(rgba(243, 243, 243, 0.863), rgba(12, 95, 88, 0.918)), url("/static/images/0Background.jpg ");
+}
+
+.club-content {
+width: 100%;
+padding-top: 5.9rem;
+padding-left: 10%;
+padding-right: 10%;
+position: relative;
+padding-bottom: 0%;
+background: inherit;
+}
+
+.item{
+height: 100%;
+width: 100%;
+}
+.whoweare-content {
+width: 100%;
+height:auto;
+background-color: rgba(0, 0, 0, 0.822);
+padding-top: 8%;
+padding: 5% 10%;
+position: relative;
+margin:0.2% 0%;
+}
+
+.whoweare-content  p {
+color: silver;
+text-align: justify;
+font-size: 1.5vw;
+padding: 1% 2%;
+padding-bottom: 0%;
+} 
+
+.whoweare-content h1 {
+color: white;
+font-size: 2.5vw;
+}
+
+.ourteam-content {
+width: 100%;
+height:auto;
+padding-top: 8%;
+padding: 5% 10%;
+position: relative;
+margin:0% 0.2%;
+}
+
+.ourteam-content h1 {
+color: white;
+font-size: 2.5vw;
+}
+
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+width: auto;
+height: fit-content;
+margin: 10% 10%;
+border: none;
+}
+
+.card img{
+width:auto;
+height: 15vw;
+}
+.card:hover , .card:active {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-card {
+padding: 2px 16px;
+}
+
+.profile {
+display: grid;
+margin: 0 0;
+padding: 0 0;
+padding-top: 1%;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+}
+
+@media (min-width: 300px) {
+.profile {
+grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media (min-width: 600px) {
+.profile {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (min-width: 900px) {
+.profile {
+grid-template-columns: repeat(3, 1fr);
+}
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-image: linear-gradient(rgba(197, 201, 200, 0.904), rgb(39, 39, 39));
+overflow: hidden;
+width: 100%;
+height: 0;
+transition: .5s ease;
+}
+
+.text a {
+font-size: 2vw;
+text-decoration: none;
+color: black;
+padding-left: 1vw;
+}
+
+.card:hover .overlay ,.card:active .overlay {
+height: 100%;
+}
+
+.text {
+color: white;
+font-size: 1vw;
+position: relative;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.field {
+font-weight: bold;
+font-size: 1.5vw;
+color: black;
+}
+
+.skills {
+color: whitesmoke;
+font-size: 1.5vw;
+}
+
+.fa-star {
+color: gold;
+}
+
+.text i {
+font-size: 1.5vw;
+}
+
+.text hr{
+margin: 5% 15%;
+}
+#myCarousel{
+height:100%;
+width: 100%;
+margin-bottom: 0;
+}
+@media(max-width: 786px) {
+
+#myCarousel{
+padding-top:5%;
+height:40%;
+width: 100%;
+margin-bottom: 0;
+}
+.club-content {
+width: 100%;
+padding-top: 1rem;
+padding-right: 0%;
+padding-left: 0%;
+}
+
+.club-content h1{
+padding: 2% 5%;
+padding-top: 0;
+}
+
+.item{
+height: 200%;
+width: 100%;
+}
+
+.whoweare-content {
+margin: 0%;
+width: 100%;
+}
+.whoweare-content h1 {
+font-size: 8vw;
+}
+
+.whoweare-content p {
+font-size: 4vw;
+padding-top: 4%;
+} 
+
+
+.ourteam-content h1 {
+font-size: 8vw;
+}
+
+.club-content .info p{
+font-size: 15px;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+width: 80%;
+height: fit-content;
+margin: 10% 10%;
+border: none;
+}
+
+.card img{
+height:270px;
+}
+
+.card:hover , .card:active {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.field{
+font-size: 20px;
+}
+
+.skills{
+font-size: 20px;
+}
+
+.text i{
+font-size: 15px;
+padding-bottom: 10px;
+}
+
+.text a{
+font-size: 25px;
+padding-top: 15px;
+}
+
+.text hr{
+margin: 5% 15%;
+}
+
+}
